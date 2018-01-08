@@ -11,3 +11,5 @@ This quiz is intended to touch base of,
   6. Git commands (init, clone, pull, push, branch, add, status, checkout)
 
 Happy Learning!
+
+Section 1 : Clone repository to local machine
