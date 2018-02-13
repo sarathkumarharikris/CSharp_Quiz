@@ -41,10 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Questions\Q_Conditional.cs" />
-    <Compile Include="Questions\Q_List.cs" />
-    <Compile Include="Questions\Q_Loops.cs" />
-    <Compile Include="Questions\Q_String.cs" />
+    <Compile Include="Questions\CSharpBasics.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,6 +1,6 @@
 ﻿namespace Quiz_Beginners
 {
-    class Q_Conditional
+    class CSharpBasics
     {
         
         // TBA
