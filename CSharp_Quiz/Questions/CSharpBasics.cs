@@ -1,4 +1,5 @@
-﻿namespace Quiz_Beginners
+/// THIS IS A TEST CHANGE
+namespace SYMC.GLOBALIZATION.LOCALIZATION
 {
     class CSharpBasics
     {
