@@ -1,7 +1,28 @@
-﻿namespace Quiz_Beginners
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SYMC.GLOBALIZATION.LOCALIZATION
 {
-    class CSharpBasics
+    public class gitTest
     {
+        public const int MaxHeight = 600;
+        public const int MaxWidth = 800;
+
+
+        static void Main(string[] args)
+        {
+            gitTest gittest = new gitTest();
+            gittest.ValidateImage();
+
+            gittest.Factorial();
+
+            string reversename = gittest.ReverseName();
+            Console.WriteLine("Reversed Name : " + reversename);
+            Console.ReadLine();
+        }
 
         /// <summary>
         /// Write a program and ask the user to enter the width and height of an image. Then tell if the image 
@@ -9,7 +30,24 @@
         /// </summary>
         /// 
 
+        public void ValidateImage()
+        {
+            Console.WriteLine("Enter Height of the image : ");
+            int height = Convert.ToInt32(Console.ReadLine());
 
+            Console.WriteLine("Enter Width of the image : ");
+            int width = Convert.ToInt32(Console.ReadLine());
+
+            if (height > MaxHeight && width > MaxWidth)
+            {
+                Console.WriteLine("Image is Landscape");
+            }
+            else
+            {
+                Console.WriteLine("Image is Portrait");
+            }
+            Console.ReadLine();
+        }
 
 
         /// <summary>
@@ -19,7 +57,18 @@
         /// </summary>
         /// 
 
+        public void Factorial()
+        {
+            Console.WriteLine("Enter Number for the factorial : ");
+            int number = Convert.ToInt32(Console.ReadLine());
 
+            for (int i = number - 1; i >= 1; i--)
+            {
+                number = number * i;
+            }
+            Console.WriteLine("\nFactorial of Given Number is: " + number);
+            Console.ReadLine();
+        }
 
 
         /// <summary>
@@ -28,7 +77,15 @@
         /// </summary>
         /// 
 
+         public string ReverseName()
+        {
+            Console.WriteLine("Enter your name : ");
+            string name = Console.ReadLine();
 
+            char[] charArray = name.ToCharArray();
+            Array.Reverse(charArray);
+            return new string(charArray);
+        }
 
         /// <summary>
         /// Write a program and ask the user to enter a few numbers separated by a hyphen. Work out 
@@ -37,7 +94,16 @@
         /// </summary>
         /// 
 
+        public void Consecutive()
+        {
+            Console.WriteLine("Enter Numbers separated by hyphens : ");
+            string numbers = Console.ReadLine();
+            
+            var num = numbers.Replace("-", "");
 
+            List<string> result = num.Split(',').ToList();        
+        }
 
     }
 }
+
