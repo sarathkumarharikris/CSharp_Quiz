@@ -33,4 +33,15 @@ This exercise comprises of following steps.
   10.	That’s all! Please do not make any changes into master question repository 
 
 
+Below are the instructions to incorporate while implementing the logic,
+
+  1. Namespace should be SYMC.GLOBALIZATION.LOCALIZATION
+  
+  2. Implemented logic should adhere C# coding standards
+  
+  3. Provide reasonable comments for each logic implemented
+  
+  4. Provide author header information
+
+
 Thanks! 
