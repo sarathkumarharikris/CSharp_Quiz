@@ -1,4 +1,4 @@
-/// THIS IS A TEST CHANGE
+/// THIS IS A TEST CHANGE - new change
 namespace SYMC.GLOBALIZATION.LOCALIZATION
 {
     class CSharpBasics
